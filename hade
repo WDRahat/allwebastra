@@ -1,0 +1,59 @@
+<footer style="background-color: #000000; color: #ffffff; padding: 20px;">
+    <!-- Main content -->
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <!-- Contact Information -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px;">
+            <h3 style="margin-top: 0; color: #ffffff;">Contact Us</h3>
+            <p style="margin: 8px 0;">📞 <a href="tel:+8801892463888" style="color: #ffffff; text-decoration: none;">+8801892463888</a></p>
+            <p style="margin: 8px 0;">📩 <a href="mailto:info@giftshours.com" style="color: #ffffff; text-decoration: none;">info@giftshours.com</a></p>
+            <p style="margin: 8px 0;">🏢 Balla Bazar, RM Plaza, Tangail</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px;">
+            <h3 style="margin-top: 0; color: #ffffff;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 8px;"><a href="#" style="color: #ffffff; text-decoration: none;">Home</a></li>
+                <li style="margin-bottom: 8px;"><a href="#" style="color: #ffffff; text-decoration: none;">Shop</a></li>
+                <li style="margin-bottom: 8px;"><a href="#" style="color: #ffffff; text-decoration: none;">About Us</a></li>
+                <li><a href="#" style="color: #ffffff; text-decoration: none;">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div style="flex: 1; min-width: 200px;">
+            <h3 style="margin-top: 0; color: #ffffff;">Follow Us</h3>
+            <p style="margin: 8px 0;">
+                <a href="#" style="color: #ffffff; margin-right: 10px;">Facebook</a>
+                <a href="#" style="color: #ffffff; margin-right: 10px;">Twitter</a>
+                <a href="#" style="color: #ffffff;">Instagram</a>
+            </p>
+<img src="https://giftshours.com/wp-content/uploads/2025/04/bkash-nagad-rocket-logos-1.png" alt="Bksh"
+             style="width: 200px; height: auto; border: 2px solid black; border-radius: 8px;">
+        </div>
+    </div>
+
+    <!-- Copyright notice -->
+    <div style="text-align: center; margin-top: 20px;">
+        <p style="margin: 0;">&copy; 2024 Your E-commerce Site. All rights Giftshours.com (CEO Rahat).</p>
+    </div>
+
+    <!-- Media query for mobile responsiveness -->
+    <style>
+        @media (max-width: 768px) {
+            footer > div {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer > div > div {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            footer > div > div, footer > div > div > h3 {
+                text-align: center;
+            }
+        }
+    </style>
+</footer>
