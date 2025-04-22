@@ -1,0 +1,537 @@
+.woocommerce-result-count{
+	display:none;
+}
+
+.ast-on-card-button {
+  visibility: visible;
+  display: inline-block;
+  opacity: 1 ;
+}
+
+.ast-onsale-card {
+  display: none !important; 
+}
+
+
+.woocommerce-result-count{
+	display:none;
+}
+
+.buy-now-button { 
+	box-shadow: 0 6px #c45a1b !important;
+  padding: 20px !important;
+  font-size: 20px !important;
+  text-transform: uppercase !important;
+  color: white !important; 
+	
+}
+
+#place_order { 
+	background-color:#ff6900 !important;
+  box-shadow: 0 6px #c45a1b !important;
+  text-transform: uppercase;
+  color: #ffff; /* আগের রঙ */
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 20px;
+  animation: bouncePulse 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+/* Animation Keyframes */
+@keyframes bouncePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05) translateY(-3px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.woocommerce-notices-wrapper{
+	display:none;
+}
+
+.woocommerce-billing-fields__field-wrapper{
+	background-color:#d4edda;
+	padding:5px;
+}
+
+/* Style the overall product box */
+li.product {
+    
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+
+
+.astra-shop-summary-wrap{
+	padding:5px;
+	margin-top:-15px
+		
+}
+
+
+.woocommerce ul.products, .woocommerce-page ul.products {
+    display: grid
+;
+    column-gap: 10px;
+} 
+
+.woocommerce-js ul.products li.product, .woocommerce-page ul.products li.product {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+
+.orderby {
+    margin-bottom: -20px;!important;
+}
+
+.woocommerce-js .woocommerce-breadcrumb {
+	margin-top:15px !important;
+	margin-bottom:-5px !important;
+    font-size: 1em;
+    color: #f57224 ;
+} 
+
+.add-to-cart {
+  background: #2abbe8 !important;
+} 
+
+.woocommerce div.product form.cart .button.single_add_to_cart_button {
+    width: 76%;
+    background: #2abbe8;
+	color:#fff;
+}
+.ast-container, .ast-container-fluid {
+	margin-top:-20px;
+    padding: 8px;
+} 
+
+/* Hide the 'Your order' heading on mobile devices */
+@media (max-width: 768px) {
+    #order_review_heading {
+        display: none;
+    }
+}
+
+
+.woocommerce-shipping-methods input[type="radio"]:checked + label { 
+    color: #f57224; 
+    padding:5px;
+    border: 2px solid #f57224; 
+    background-color: #fff3e6; 
+    border-radius: 8px;
+	font-size:14px;
+	
+}
+
+.woocommerce-js table.shop_table .woocommerce-Price-amount, .woocommerce-page table.shop_table .woocommerce-Price-amount {
+    font-weight: 700;
+	 color: #f57224;
+	font-size:18px !important;
+	
+}
+
+
+.woocommerce-page.woocommerce-checkout form #order_review td:last-child, .woocommerce-page.woocommerce-checkout form #order_review th:last-child, .woocommerce.woocommerce-checkout form #order_review td:last-child, .woocommerce.woocommerce-checkout form #order_review th:last-child {
+    text-align: left ; 
+}
+
+
+/* Remove borders from the 'Your Order' table */
+.woocommerce-page.woocommerce-checkout form #order_review td, 
+.woocommerce-page.woocommerce-checkout form #order_review th,
+.woocommerce.woocommerce-checkout form #order_review td, 
+.woocommerce.woocommerce-checkout form #order_review th {
+    border: none !important;  /* Remove all borders */
+    padding-left: 0;  /* Optional: Adjust padding if needed */
+}
+/* Hide the Subtotal row in the checkout page */
+.woocommerce-page.woocommerce-checkout .cart-subtotal {
+    display: none;
+}
+
+/* Hide the 'Billing details' heading */
+.woocommerce-page.woocommerce-checkout .woocommerce-billing-fields h3 { 
+    display: none;
+}
+
+.woocommerce-thankyou-order-received {
+    display: none !important;
+}
+
+
+
+/* Order Summary Box Style */
+
+
+.woocommerce-page.woocommerce-checkout .woocommerce-order ul.order_details, .woocommerce.woocommerce-checkout .woocommerce-order ul.order_details {
+    margin-top: 25px;
+} 
+
+
+.woocommerce-order-overview {
+	margin-top:20px;
+    background: linear-gradient(135deg, #e6fff5, #f0fff9);
+
+    border-radius: 14px;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+
+    font-size: 16px;
+}
+
+/* Each line style */
+.woocommerce-order-overview li { 
+	
+    list-style: none;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+
+    color: #14532d;
+}
+
+.woocommerce-js ul.order_details li {
+    
+   border-right: 0px ;
+    
+}
+
+.woocommerce-js ul.products li.product .price ins {
+	color:#ff6900;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.woocommerce-js ul.products li.product .price del {
+    display: none !important;
+   
+}
+
+.woocommerce ul.products li.product h2.woocommerce-loop-product__title {
+ 
+  
+
+}
+
+
+@media (max-width: 680px) {
+    .woocommerce ul.products li.product h2.woocommerce-loop-product__title {
+        font-size: 13px;
+			font-family:sans-serif;
+    }
+}
+
+
+
+.ast-search-menu-icon {
+
+    background-color: black;
+    border-radius: 5px;
+ 
+}
+
+
+.woocommerce-Price-currencySymbol{
+	font-size:20px;
+	font-weight:800;
+}
+
+
+.woocommerce-terms-and-conditions-wrapper {
+  background-color: #fff7e6;
+
+  border-radius: 10px;
+padding-left:8px;
+   font-size: 12px;
+  font-family: 'SolaimanLipi', 'Noto Sans Bengali', sans-serif;
+}
+
+
+
+.wc_payment_method input[type="radio"] {
+  display: none;
+}
+
+.wc_payment_method label {
+  font-weight: 600;
+  font-size: 17px;
+  color: #333;
+  display: block;
+  padding-left: 30px;
+  position: relative;
+}
+
+.wc_payment_method label::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid #aaa;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+.wc_payment_method input[type="radio"]:checked + label::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #555;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+
+
+
+.payment_method_cod label {
+  color: #2e7d32;
+}
+
+
+.payment_method_cod input[type="radio"]:checked + label::after {
+  background: #4caf50;
+}
+
+
+.payment_method_bkash label { 
+  color: #df126d;
+	
+}
+
+
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0em; 
+    margin-top:14px;
+    font-size: .83em;
+    border-radius: 2px;
+    line-height: 1.5;
+    background-color: #dfdcde;
+    color: #515151;
+}
+
+
+
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {
+  margin-bottom: 10px;
+}
+
+.woocommerce-page.woocommerce-checkout #payment div.payment_box,
+.woocommerce.woocommerce-checkout #payment div.payment_box {
+  background-color: #ffffff;
+}
+
+#order_review {
+  padding: 0 2em;
+  border-width: 0px !important;
+}
+
+.woocommerce table.shop_table thead th { 
+	
+  font-size: 0;
+}
+.woocommerce table.shop_table thead th::before {
+  content: '';
+}
+
+
+.woocommerce-checkout-review-order-table.shop_table {
+  margin-top: -40px !important;
+}
+
+.woocommerce-products-header h1{
+	display :none;
+}
+
+.woocommerce-js .woocommerce-breadcrumb {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #f57224;
+}
+
+.orderby{display:none}
+
+
+
+.woocommerce-ordering1 select {
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    height: 60px;
+  background-color:#ff6900
+
+
+}
+
+
+.woocommerce-js div.product div.images {
+    margin-bottom: -15px !important ;
+} 
+
+
+.checkout-product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  
+}
+
+.checkout-product-thumbnail {
+    flex: 0 0 auto;
+    width: 90px;
+}
+
+.checkout-product-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.checkout-product-qty input.qty {
+    width: 80px !important;
+    text-align: center !important;
+}
+
+
+
+.woocommerce-shipping-totals th {
+    display:none;
+}
+
+.woocommerce-product-gallery__image {
+
+  margin-top: 15px;
+}
+
+.woocommerce-js .woocommerce-breadcrumb {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #777;
+} 
+
+
+.buy-now-button1 { 
+	margin-top:-4px!important;
+    background-color: #fff !important;
+    color: #1e293b !important; 
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+border: 0.5px solid #cccccc !important ;
+}
+
+.buy-now-button1:hover {
+    background-color: #d1d1d1 !important;
+}
+
+@media (max-width: 767px) { .ast-row {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important; /* Mobile: 2 columns */
+  gap: 20px !important; /* Optional: spacing between items */
+}
+
+}
+
+
+@media (max-width: 767px) {
+  .ast-blog-single-element.ast-blog-meta-container,
+  .ast-excerpt-container,
+  .entry-title.ast-blog-single-element {
+    display: none !important;
+  }
+}
+
+
+.ast-article-post .post-thumb-img-content img {
+   
+    aspect-ratio: 4 / 4 !important; 
+}
+
+
+@media (max-width: 767px) {
+    .ast-row {
+        display: grid !important
+;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap:0px !important;
+    }
+}
+
+
+.ast-single-post .entry-title,
+.ast-single-post .entry-title a {
+  display: none !important;
+}
+
+
+/* WooCommerce পণ্যের বর্ণনা লুকানোর CSS */
+.wc-block-components-product-metadata__description {
+  display: none !important;
+}
+
+
+.single-product .woocommerce-Price-amount,
+.woocommerce ul.products li.product .price {
+    color: #ff6900 !important;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Hover Effect */
+ul.wc-block-product-categories-list .wc-block-product-categories-list-item { 
+		margin-bottom:30px !important;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Product Category Name */
+ul.wc-block-product-categories-list .wc-block-product-categories-list-item__name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+.woocommerce div.product form.cart .button.single_add_to_cart_button {
+    width: 75%;
+    background: #2abbe8;
+    color: #fff;
+	padding:13px;
+
+
